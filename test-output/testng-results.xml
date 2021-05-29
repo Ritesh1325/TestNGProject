@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="98" started-at="2020-10-29T09:55:08Z" finished-at="2020-10-29T09:55:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="98" started-at="2020-10-29T09:55:08Z" finished-at="2020-10-29T09:55:08Z">
+      <class name="TestNGPackage.EnabledTestNG">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="launchBrowser" duration-ms="17" started-at="2020-10-29T15:25:08Z" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="loginTest" duration-ms="2" started-at="2020-10-29T15:25:08Z" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="sendMail()[pri:2, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="sendMail" duration-ms="4" started-at="2020-10-29T15:25:08Z" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMail -->
+        <test-method status="PASS" signature="receiveMail()[pri:3, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="receiveMail" duration-ms="2" started-at="2020-10-29T15:25:08Z" depends-on-methods="TestNGPackage.EnabledTestNG.sendMail" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receiveMail -->
+        <test-method status="PASS" signature="logoutTest()[pri:4, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="logoutTest" duration-ms="2" started-at="2020-10-29T15:25:08Z" depends-on-methods="TestNGPackage.EnabledTestNG.loginTest" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="closeApplication()[pri:5, instance:TestNGPackage.EnabledTestNG@18a00e3]" name="closeApplication" duration-ms="4" started-at="2020-10-29T15:25:08Z" finished-at="2020-10-29T15:25:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- TestNGPackage.EnabledTestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
